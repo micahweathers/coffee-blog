@@ -113,3 +113,93 @@ a{
     max-width: 400px;
 }
 
+/*contact*/
+
+.contact-header{
+    background-color: black;
+    color: white;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-inputs{
+    margin-top: -50px;
+    padding: 20px;
+    background-color: white;
+}
+.input-control{
+    display: flex;
+    margin: 20px 0;
+}
+.input-control label{
+    width: 20%;
+}
+.input-control input, .input-control textarea{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.contact-location{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-location img{
+    width: 25px;
+    height: auto;
+    padding: 2px;
+    display: block;
+}
+.find-us-section {
+    text-align: center;
+}
+/*Courses*/
+
+.courses-header{
+    background-color: black;
+    background-size: cover;
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.courses-text h1, .courses-text h2{
+    font-family: Georgia;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.courses-text h3{
+    font-style: italic;
+    font-size: smaller;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.courses-selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.courses-selection img{
+    width: 350px;
+    height: 300px;
+    border-radius: 100%;
+}
+.courses-selection p{
+    max-width: 400px;
+    font-size: 16px;
+}
+.courses-prices{
+    display: flex;
+    justify-content: center;
+}
+.btn-course{
+    margin-left: 15px;
+}
